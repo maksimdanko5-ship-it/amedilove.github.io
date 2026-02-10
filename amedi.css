@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    overflow: hidden;
+    height: 100VH;
+    border: solid 16px rgb(202, 106, 106);
+}
+#gifParent{
+    margin-top: 30px;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#gif {
+    border: solid 16px pink;
+    border-radius: 15px;
+    padding: 10px;
+}
+#accpetParent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#yes, #no {
+    font-size: 30px;
+    margin-top: 10px;
+    border: none;
+    background-color: pink;
+    border-radius: 10px;
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+#text {
+    font-size: 28px;
+    flex-wrap: nowrap;
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#textParent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#no {
+margin-left: 10px;
+}
+#yes {
+    width: 50px;
+}
+#parentmmmwah{
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media(max-width: 768px){
+    #gif1 {
+        height: 300px;
+    }
+    #gifParent {
+        height: 40vh;
+    }
+    body {
+        overflow: hidden;
+    }
+}
